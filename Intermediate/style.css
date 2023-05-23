@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.black{
+    background-color: black;
+    width:100%;
+    height:10px;
+}
+
+.card-container{
+    margin:0 auto;
+    padding:10px;
+    border:1px solid black;
+    width:500px;
+    height:800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+.Amount{
+    
+    width:60%;
+    align-self: flex-start ;
+    justify-self:flex-start;
+    
+}
+
+.small{
+    text-align:end;
+}
+
+.Cereal{
+    
+    align-self: flex-start ;
+    justify-self:flex-start;
+    width:20%;
+    text-align: center;
+   
+}
+
+.start{
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.milk{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    width:20%;
+}
+
+.pi{
+    display:block;
+    width:100%;
+    text-align:end ;
+}
+
+.last{
+    width: 100%;
+    height: auto;
+   display: flex;
+    
+}
+
+.last1{
+    width:30%;
+}
+.last2{
+    width:30%;
+}
+.last3{
+    width:30%;
+}
+.last5{
+    width:100%;
+    text-align: center;
+}
+.el{
+    display:block;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    
+}
+
+li::before{
+    content:"+";
+    color: white;
+    
+}
