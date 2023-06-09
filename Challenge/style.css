@@ -5,12 +5,14 @@
 }
 
 header{
-    background-color: darkcyan;
+    background: darkcyan;
+    background-image: linear-gradient(to bottom, #336666, #66cccc);
     display:flex;
     height:80px;
     align-items:center ;
     flex-direction: row;
     justify-content: space-around;
+    color:white;
 }
 
 header > p {
